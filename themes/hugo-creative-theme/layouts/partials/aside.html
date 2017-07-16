@@ -1,0 +1,14 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            {{ with .Site.Params.aside.headline }}<h2>{{ . }}</h2>{{ end }}
+            {{ with .Site.Params.aside.video.src }}
+              <video src="{{ . }}" controls></video>
+            {{ end }}
+            {{ if and .Site.Params.aside.button.link .Site.Params.aside.button.text }}
+                <a href="{{ .Site.Params.aside.button.link }}" class="btn btn-default btn-xl wow tada">{{ .Site.Params.aside.button.text }}</a>
+            {{ end }}
+        </div>
+    </div>
+</aside>
