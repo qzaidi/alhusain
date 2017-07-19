@@ -137,7 +137,7 @@ publishDir = "docs"
 		[params.fund.external]
       text = "Paypal"
 			link = "//github.com/digitalcraftsman/hugo-creative-theme"
-      account = "IDFCUG9DCFUMBTJ"
+      account = "ZKKC7J48KXY32"
 
 	#Google Maps section
 	 [params.location]
