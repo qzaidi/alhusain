@@ -105,7 +105,8 @@ publishDir = "docs"
 		headline = "From the students"
 
 		[params.aside.video]
-			src = "video/student1.mp4"
+			src = "video/alhusain.mp4"
+      preview = "img/preview.jpg"
 
 	# Contact section
 	[params.contact]
